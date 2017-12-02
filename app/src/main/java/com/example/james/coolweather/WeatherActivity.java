@@ -144,6 +144,9 @@ public class WeatherActivity extends AppCompatActivity {
             }
         });
     }
+    public void setTempWeatherID(String weatherID){
+        this.mWeatherID = weatherID;
+    }
     /* show weather */
     private void showWeatherInfo(Weather weather){
         String cityName = weather.basic.cityName;
